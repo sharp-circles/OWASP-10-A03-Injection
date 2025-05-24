@@ -26,18 +26,18 @@ Lastly, we execute sqlmap following the RTFM indications for the penetration tes
 
 ## Potential issues and explanations when executing sqlmap against WebGoat
 
-1. Endpoint enumeration.
+### Endpoint enumeration.
 
 Explain here.
 
-2. Redirection caused by lack of authentication.
+### Redirection caused by lack of authentication.
 
 The access to the inner endpoints for the lessons is proxied by a required login. Therefore, automation hits this first barrier when starting the analysis.
 
-3. Authentication cookie missing.
+### Authentication cookie missing.
 
 Skipping the redirects is not enough, as the validation for the session will be there. That's the second step. By navigating to the cookies section in the inspector, you can grab the cookie session and patch the statement accordingly.
 
-4. 400 HTTP errors.
+### 400 HTTP errors.
 
 Bad request, validation errors are another form of walls that can get in the way of a smoother detection phase. Ensure required parameters are provided to get the expected server response.
