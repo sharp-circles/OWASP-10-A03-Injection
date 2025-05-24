@@ -1,6 +1,8 @@
-# OWASP-10-A03-Injection
+# OWASP-10-A03-Injection I
 
 SQL injection penetration testing lab using sqlmap statements against OWASP WebGoat project
+
+First lab of a two deliveries series on injections
 
 ## Resources
 
