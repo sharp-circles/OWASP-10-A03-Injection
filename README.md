@@ -17,7 +17,7 @@ First, we have learned how to bootstrap WebGoat following the official docs: htt
 
 Then, a little investigation around the application was necessary in order to understand workflows and services exposed.
 
-Lastly, we execute sqlmap following the RTFM indications for the penetration testing. We faced many errors on the course of the process. As a result, we have tailored the outcomes and explanation for deeper understanding.
+Lastly, we execute sqlmap following the RTFM indications for the penetration testing. We faced many errors on the course of the process. As a result, we have tailored the outcomes and explanations for deeper understanding.
 
 ## Output
 
