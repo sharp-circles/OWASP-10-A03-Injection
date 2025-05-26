@@ -44,7 +44,7 @@ In our case, we did the following.
 
 ### Manual endpoint enumeration
 
-What we did is actually quite easy. And totally open. We used the inspector tab to gather information about the connections to the WebGoat API. By linking the lessons and the endpoints hit, we extracted the urls.
+What we did is actually quite easy. And totally open. We used the inspector tab to gather information about the connections to the WebGoat API. By linking the lessons and the endpoints hits, we extracted the urls.
 
 Additionally, the fact of knowing what the paths are allows you to perform a deeper search in the source code. GitHub has a cool search engine for this. Go to the source code and try with a path. You will probably obtain a few matches. 
 
